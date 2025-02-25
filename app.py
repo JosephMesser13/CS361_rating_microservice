@@ -16,6 +16,8 @@ from bson.objectid import ObjectId
 
 PORT = 5256
 app = Flask(__name__)
+# Base URL for the microservice
+BASE_URL = f"http://localhost:{PORT}"
 
 # DataBase connection information (mongoDB)
 # can be set as an environment variable or default to localhost (may need to change the port number)

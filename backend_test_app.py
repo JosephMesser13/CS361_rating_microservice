@@ -1,6 +1,7 @@
 import requests
+from app import PORT, BASE_URL
 
-BASE_URL = "http://localhost:5256"
+# BASE_URL = f"http://localhost:{PORT}"
 
 # Test adding a rating
 def test_add_rating():
