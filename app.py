@@ -9,10 +9,10 @@
 
 
 from flask import Flask, request, jsonify, redirect
-from flask_pymongo import PyMongo
+# from flask_pymongo import PyMongo
 import os
 import requests
-import json
+# import json
 import pymongo
 from bson.objectid import ObjectId
 
@@ -20,6 +20,7 @@ PORT = 5256
 app = Flask(__name__)
 
 # DataBase connection information (mongoDB)
+# can be set as an environment variable or default to localhost (may need to change the port number)
 MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/rating_database")
 client = pymongo.MongoClient(MONGO_URI)
 mongo = client.rating_database
