@@ -9,10 +9,8 @@
 
 
 from flask import Flask, request, jsonify, redirect
-# from flask_pymongo import PyMongo
 import os
 import requests
-# import json
 import pymongo
 from bson.objectid import ObjectId
 
