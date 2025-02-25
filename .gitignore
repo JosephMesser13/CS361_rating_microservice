@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Environment variables
+.env
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
