@@ -12,7 +12,7 @@ from flask import Flask, request, jsonify, redirect
 import os
 import requests
 import pymongo
-from bson.objectid import ObjectId
+from bson.objectid import ObjectId  # For ObjectId to work with mongoDB
 
 PORT = 5256
 app = Flask(__name__)
