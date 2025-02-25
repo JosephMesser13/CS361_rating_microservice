@@ -128,6 +128,6 @@ Below are example uses.
     response = requests.get("http://localhost:5256/ratings/456")
     print(response.json())
 
-  Frontend Integration
+ *Note the MongoDB connection string and the BASE_URL and PORT variables may need to be changed depending on your environment/setup.
     
 
