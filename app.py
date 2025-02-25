@@ -46,7 +46,6 @@ def add_rating():
     }).inserted_id
 
     return jsonify({'rating_id': str(rating_id)}), 201
-    return jsonify({'rating_id': str(rating_id)}), 201
 
 
 @app.route('/ratings/<product_id>', methods=['GET'])
