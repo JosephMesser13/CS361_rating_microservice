@@ -1,7 +1,14 @@
+**CS361 Microservice A**
+
 **Flask Ratings Microservice**
 
 This microservice provides a RESTful API for tracking ratings and basic statistics for images or products.
 It stores user ratings in a MongoDB database and allows CRUD operations on ratings.
+
+**UML Sequence Diagram**
+
+![image](https://github.com/user-attachments/assets/c1090d95-094c-45a7-963f-98446c57f027)
+
 
 **Prerequisites**
 
