@@ -1,5 +1,10 @@
 **CS361 Microservice A**
 
+Author: Joseph Messer
+
+Designed for: Shengwei Zhu
+
+
 **Flask Ratings Microservice**
 
 This microservice provides a RESTful API for tracking ratings and basic statistics for images or products.
